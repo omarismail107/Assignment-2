@@ -20,6 +20,8 @@ Advantages/Disadvantages:
 Solution 1:
 Advantages:
 Guest can potentially complete other tasks while waiting to enter the showroom.
+
+
 Disadvantages: 
 A guest that wants to see the vase would have no guarantee of entering the showroom.
 A guest can potentially be waiting for long periods of time in order to enter the showroom.
@@ -27,6 +29,8 @@ A guest can potentially be waiting for long periods of time in order to enter th
 Solution 2:
 Advantages: 
 Needs less space than other solutions
+
+
 Disadvantages:
 Guest would constantly have to look at a sign in order to see whether showroom is available or busy. 
 Takes more time than solution 3
@@ -36,6 +40,7 @@ Advantages:
 Faster than all other solutions.
 No potential for deadlocking.
 Small size for space
+
 
 Disadvantages:
 The queue to enter the showroom may be particularly long in some cases.
