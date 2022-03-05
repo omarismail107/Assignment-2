@@ -17,6 +17,8 @@ Output:
 Part 2:
 
 Advantages/Disadvantages:
+
+
 Solution 1:
 Advantages:
 Guest can potentially complete other tasks while waiting to enter the showroom.
