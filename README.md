@@ -42,7 +42,7 @@ The queue to enter the showroom may be particularly long in some cases.
 Some queue algorithms don't work well with NUMA architectures.
 
 Summary/Proof:
-In this solution, I ultimately decided to use a queue over the other strategies. I implemented this queue by allowing any thread that wanted to enter the queue to enter. I had one designated thread dequeueing the items from the blocking queue and displaying that they had left the showroom. This made the solution possible of only having one thread/guest inside the showroom looking at the vase at all times.
+In vase.java, I ultimately decided to use a queue over the other strategies. I implemented this queue by allowing any thread that wanted to enter the queue to enter. I had one designated thread dequeueing the items from the blocking queue and displaying that they had left the showroom. This made the solution possible of only having one thread/guest inside the showroom looking at the vase at all times.
 
 Output:
 ![image](https://user-images.githubusercontent.com/75344828/156865755-a701b547-71cd-43bd-8ad7-f501eff9b5e8.png)
