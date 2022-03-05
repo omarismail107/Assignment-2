@@ -19,15 +19,27 @@ Part 2:
 Advantages/Disadvantages:
 Solution 1:
 Advantages:
-Disadvantages:
+Guest can potentially complete other tasks while waiting to enter the showroom.
+Disadvantages: 
+A guest that wants to see the vase would have no guarantee of entering the showroom.
+A guest can potentially be waiting for long periods of time in order to enter the showroom.
 
 Solution 2:
-Advantages: Needs less space than other solutions
+Advantages: 
+Needs less space than other solutions
 Disadvantages:
+Guest would constantly have to look at a sign in order to see whether showroom is available or busy. 
+Takes more time than solution 3
 
 Solution 3:
 Advantages:
+Faster than all other solutions.
+No potential for deadlocking.
+Small size for space
+
 Disadvantages:
+The queue to enter the showroom may be particularly long in some cases.
+Some queue algorithms don't work well with NUMA architectures.
 
 Summary/Proof:
 In this solution, I ultimately decided to use a queue over the other strategies. I implemented this queue by allowing any thread that wanted to enter the queue to enter. I had one designated thread dequeueing the items from the blocking queue and displaying that they had left the showroom. This made the solution possible of only having one thread/guest inside the showroom looking at the vase at all times.
